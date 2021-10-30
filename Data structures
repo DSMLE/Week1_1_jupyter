@@ -1,0 +1,41 @@
+tuple= ("car","mind")
+print(tuple)
+
+tupleq= ["car","mind"]
+print(tuple)
+
+tupleq= ["car","mind"]
+print(tupleq)
+del tupleq[0]
+print(tupleq)
+
+tuple1= ("car","mind")
+print(tuple1)
+#del tuple1[0]
+print(tuple1)
+print(type(tuple1))
+
+def first_last(s):
+    return s[0],s[-1]
+first_char,last_char = first_last("Shreyash")
+print (first_char)
+print (last_char)
+
+def first_last(s):
+    return s[0:5],s[3],s[4]
+first_char,middle_char1,middle_char2 = first_last("Shreyash")
+print (first_char)
+print (middle_char1)
+print (middle_char2)
+
+
+
+def first_last(s):
+    return s[0],s[-1]
+first_char,last_char = first_last("Shreekar")
+print ("first letter is :",first_char)
+print ("last letter is : ",last_char)
+
+def hash_fun(n):
+    return(n*100%31)
+print(hash_fun(2))
